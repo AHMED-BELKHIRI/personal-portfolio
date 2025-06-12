@@ -4,7 +4,7 @@
 
 
 /**
- * copyright 2022 @codewithsadee
+ * 
  */
 
 
@@ -751,7 +751,7 @@ main {
 
 .Experience_With-item img {
   width: 100%;
-  filter: grayscale(2);
+  filter: grayscale(0);
   transition: var(--transition-1);
   cursor: default;
 }
@@ -1234,6 +1234,13 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .Experience_With-item { min-width: calc(33.33% - 10px); }
+  
+  .Experience_With-item img {
+  width: 100%;
+  filter: grayscale(2);
+  transition: var(--transition-1);
+  cursor: default;
+  }
 
 
 
