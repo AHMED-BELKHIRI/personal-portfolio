@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Belkhiri</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Ahmed Belkhiri" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ahmed Belkhiri">Ahmed Belkhiri</h1>
+
+          <p class="title">Embedded system<br>Robotics</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:belkhiri.ahmedd@gmail.com" class="contact-link">belkhiri.ahmedd@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+3367012693" class="contact-link">+33 6 70 12 69 37</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-06-25">June 25, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Villetaneuse, Île-de-France, France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/AHMED-BELKHIRI" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ahmedbelkhiri/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm an Embedded Systems Engineer with a solid background in electronics, low-level programming, and
+            real-time systems.
+            Currently finalizing my degree in Industrial and Automation Engineering at the National Institute of Applied
+            Science
+            and Technology, I’m passionate about robotics and intelligent systems.
+          </p>
+
+          <p>
+            I design embedded solutions for robotics, integrating sensors, control algorithms, and various communication
+            protocols.
+            I'm also drawn to computer vision and deep learning, aiming to build smart, efficient systems that push the
+            limits of
+            automation.
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-cpu.svg
+                " alt="cpu icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Embedded System</h4>
+
+                <p class="service-item-text">
+                  Design and development of real-time embedded systems using microcontrollers
+                  and hardware-software integration.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-robot.svg" alt="robot icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Robotics</h4>
+
+                <p class="service-item-text">
+                  Building intelligent robotic systems, from mechanical design to sensor integration and control
+                  algorithms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-circuit-board.svg" alt="circuit board icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Electronics </h4>
+
+                <p class="service-item-text">
+                  Designing and testing custom electronic circuits and PCBs for automation, sensing, and control
+                  applications.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon_ai.svg" alt="ai icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision & AI</h4>
+
+                <p class="service-item-text">
+                  Applying computer vision and deep learning to robotics for perception, tracking, and intelligent
+                  decision-making.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
+
+
+        <!--
+          - Experience_With
+        -->
+
+        <section class="Experience_With">
+
+          <h3 class="h3 Experience_With-title">Experience With</h3>
+
+          <ul class="Experience_With-list has-scrollbar">
+
+            <li class="Experience_With-item">
+              <a>
+                <img src="./assets/images/logo-1-color.png" alt="Hummink logo">
+              </a>
+            </li>
+
+            <li class="Experience_With-item">
+              <a>
+                <img src="./assets/images/logo-2-color.png" alt="Mare Custor logo">
+              </a>
+            </li>
+
+            <li class="Experience_With-item">
+              <a>
+                <img src="./assets/images/logo-3-color.png" alt="Shanon Technologies logo">
+              </a>
+            </li>
+
+            <li class="Experience_With-item">
+              <a>
+                <img src="./assets/images/logo-4-color.png" alt="Hydatis logo">
+              </a>
+            </li>
+
+            <li class="Experience_With-item">
+              <a>
+                <img src="./assets/images/logo-5-color.png" alt="Discovery Club logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Institute of Applied Science and Technology</h4>
+
+              <span>2020 — 2025</span>
+
+              <p class="timeline-text">
+                I completed two years of preparatory classes focused on mathematics, physics, and programming
+                before joining INSAT. I then specialized in Automation and Industrial Computing, where I gained
+                solid knowledge in robotics and embedded systems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pioneer School of Gafsa</h4>
+
+              <span>2015 — 2019</span>
+
+              <p class="timeline-text">
+                Studied in the Mathematics track in preparation for the Tunisian Baccalaureate,
+                which I successfully obtained with a specialization in Mathematics.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Embedded Software engineer</h4>
+
+              <span>Mare Custos<br>03/2024 — 09/2024 | Ariana, Tunisia</span>
+
+              <p class="timeline-text">
+                • Designed and developed custom drivers for STM32 micorcontrollers, focusing on the Board Support
+                Package (BSP) layer.
+                <br>• Integrated micro-ROS and FreeRTOS into firmware, leveraging the IAR Workbench framework.
+                <br>• Automated the generation of the micro-ROS library using GitHub Actions CI/CD for streamlined
+                development.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Robotic Engineer</h4>
+
+              <span>SHANON TECHNOLOGIES<br>02-2024 – 09-2024 | Toulouse, France</span>
+
+              <p class="timeline-text">
+                • Developed software applications for various projects and designed schematic blocks for robotics
+                applications.
+                <br>• Constructed mechanical systems in SolidWorks and used Cura for 3D printing preparation and
+                production.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Vision Intern</h4>
+
+              <span>HYDATIS<br>06-2023 – 09-2023 | Ariana, Tunisia</span>
+
+              <p class="timeline-text">
+                • Created a face detection system, a critical component for face recognition technology.
+                <br>• Engineered an anti-spoofing system using innovative 3D depth detection, utilized in about 60-70%
+                of applications.
+                <br>• Crafted a user-friendly Python interface to streamline project implementation and usage.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research and Development Inten</h4>
+
+              <span>MARE CUSTOS<br>07-2022 – 09-2022 | Ariana, Tunisia</span>
+
+              <p class="timeline-text">
+                • Built a robot for pipeline inspection using SolidWorks and implemented a PID control algorithm for
+                precise navigation.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  Robotics Operating System (ROS):<br>
+                  <span style="font-size: 0.8em;">Software development for robot control.</span>
+                </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  Micro controllers:<br>
+                  <span style="font-size: 0.8em;">Operational knowledge of Hardware architecture and
+                    software tools for Raspberry PI-STM32-ESP32.</span>
+                </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  Robotics Operating System (ROS):<br>
+                  <span style="font-size: 0.8em;">Software development for robot control.</span>
+                </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  Frameworks:<br>
+                  <span style="font-size: 0.8em;">STM32CUBE, IAR Workbench, Arduino, OpenCV, TensorFlow,
+                    QT. </span>
+                </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  Programming languages:<br>
+                  <span style="font-size: 0.8em;">C/C++, Python, Java, SQL, JavaScript, HTML/CSS.</span>
+                </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  RTOS:<br>
+                  <span style="font-size: 0.8em;">Adept with FreeRTOS. </span>
+                </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  Development Tools:<br>
+                  <span style="font-size: 0.8em;">Git, Solidworks, Proteus, Catia, STM32CubeIDE, VS Code,
+                    Visual Studio, PyCharm, Eclipse. </span>
+                </h5>
+              </div>
+
+              <div class="skill-progress-bg">
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #project
+      -->
+
+      <article class="blog" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/face-tracker.jpeg" alt="Face Tracker" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotic</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-06-01">Jul 2023 – Sep 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">FACE TRACKER</h3>
+
+<p class="blog-text">
+  Developed a real-time face tracking system by integrating multiple disciplines:<br>
+  - <strong>Face Detection:</strong> Used <strong>MediaPipe</strong> for fast and reliable facial tracking.<br>
+  - <strong>Programming:</strong> Wrote software in <strong>Python</strong> (Raspberry Pi 4) and <strong>C</strong> (STM32).<br>
+  - <strong>Embedded Systems:</strong> Designed a motor control protocol on the <strong>STM32</strong> for smooth tracking.<br>
+  - <strong>Communication:</strong> Enabled UART-based data exchange between Raspberry Pi and STM32.<br>
+  - <strong>Mechanical Design:</strong> Designed hardware enclosures and mechanisms in <strong>SolidWorks</strong>.<br>
+  Result: A fully integrated face tracking system with seamless coordination of software, electronics, and mechanical components.
+</p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/chess.jpg" alt="Chess Playing Robot" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotic</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 2023 - May 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Chess Playing Robot</h3>
+
+<p class="blog-text">
+  Successfully developed a robotic system for playing chess with the following components:<br>
+  - <strong>Robotic Arm Control:</strong> Used inverse kinematics to precisely move a robotic arm.<br>
+  - <strong>Computer Vision:</strong> Designed a vision system to detect and track the board and pieces.<br>
+  - <strong>Intelligent Interaction:</strong> Enabled real-time decision-making based on visual data.<br>
+  - <strong>Embedded Programming:</strong> Developed motor control and logic algorithms.<br>
+  - <strong>Mechanical Design:</strong> Helped build and optimize the physical robot structure.<br>
+  Result: A smart, responsive robot capable of understanding and playing chess through coordinated mechanical and visual systems.
+</p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/robots.jpg" alt="Participation in EUROBOT" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotic</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Sep 2021 - Jun 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Participation in EUROBOT</h3>
+
+<p class="blog-text">
+  Contributed to the design and development of two robots meeting strict specification documents.<br>
+  - <strong>Mechanical Design:</strong> Designed structural components and articulated systems.<br>
+  - <strong>Robotic Arm:</strong> Built a 3-axis robotic arm using an <strong>Arduino</strong> for motion control.<br>
+  - <strong>Control Systems:</strong> Used <strong>STM32</strong> to implement <strong>PID control</strong> for accurate velocity and position handling.<br>
+  - <strong>Communication:</strong> Established inter-robot communication via the <strong>ROS</strong> ecosystem for seamless operation.<br>
+  The result was a pair of intelligent, coordinated robots combining hardware design with advanced control logic.
+</p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/speega.jpg" alt="SPEEGA: 3D printer Inspector" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">IOT</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jul 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">SPEEGA: 3D printer Inspector</h3>
+
+<p class="blog-text">
+  Employed a <strong>Raspberry Pi</strong> equipped with a camera to perform advanced image processing tasks for detecting failures in 3D printing processes.<br>
+  - <strong>Dataset Creation:</strong> Developed a custom dataset tailored to 3D print failure scenarios.<br>
+  - <strong>Model Training:</strong> Trained an object detection model using <strong>transfer learning</strong> techniques to achieve high accuracy.<br>
+  - <strong>Optimization & Deployment:</strong> Optimized and exported the model using <strong>TensorFlow Lite</strong> for seamless real-time inference on the Raspberry Pi.<br>
+  Enabled real-time monitoring and intervention to prevent print failures, significantly enhancing the reliability of 3D printing operations.
+</p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/DRONE1.jpg" alt="Drone" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Aeronautics</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Drone</h3>
+
+<p class="blog-text">
+  Collaborated on developing a drone utilizing a <strong>KK2 board</strong>, focusing on tuning <strong>PID coefficients</strong> for optimal stabilization.<br>
+  - <strong>PID Tuning:</strong> Adjusted and fine-tuned control parameters to enhance flight stability.<br>
+  - <strong>Pilot Experience:</strong> Piloted the drone during competitions, navigating complex challenges.<br>
+  - <strong>Demonstration:</strong> Showcased improved stability and control capabilities under high-pressure conditions.<br>
+  This project demonstrated strong technical in drone mechanics and effective performance in competitive environments.
+</p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #achievements
+      -->
+
+      <article class="Achievements" data-page="achievements">
+
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+
+        <section class="Achievements">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+
+            </button>
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active">
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                  </div>
+
+                  <img src="./assets/images/eurobot.jpg" alt="EUROBOT" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EUROBOT INTERNATIONAL COMPETITION</h3>
+
+                <p class="project-category">5Th PLACE IN THE INTERNATIONAL COMPETITION</p>
+                <p class="project-category">24 May 2022 – 28 May 2022</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" >
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                  </div>
+
+                  <img src="./assets/images/qualif_eurobot.jpg" alt="EUROBOT" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EUROBOT NATIONAL COMPETITION</h3>
+
+                <p class="project-category">1st PLACE IN THE TUNISIAN QUALIFICATIONS</p>
+                <p class="project-category">17 APRIL 2022</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                  </div>
+
+                  <img src="./assets/images/nrw.jpg" alt="NRW" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NATIONAL ROBOTIC WEEKEND</h3>
+
+                <p class="project-category">1st PLACE IN THE MAKETHON COMPETITION</p>
+                <p class="project-category">28 JUN 2022</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                  </div>
+
+                  <img src="./assets/images/coronabot.jpg" alt="brawlCORONABOThalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CORONABOT</h3>
+
+                <p class="project-category">1st PLACE IN THE AUTONOMOUS COMPETITION</p>
+                <p class="project-category">19 DEC 2021</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#" onclick="event.preventDefault();">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                  </div>
+
+                  <img src="./assets/images/drone.jpg" alt="AEROSPINA" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AEROSPINA</h3>
+
+                <p class="project-category">3rd PLACE IN THE DRONE COMPETITION</p>
+                <p class="project-category">09 AVRIL 2022</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2619.8568013042513!2d2.3388860765173054!3d48.95621249381744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66922af4c2e23%3A0xfe3113a781a13fca!2sSorbonne%20Paris%20Nord%20University!5e0!3m2!1sen!2sfr!4v1748287249014!5m2!1sen!2sfr"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form id="contact-form" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+            <div id="popup"
+              style="display:none; background:#d4edda; color:#155724; padding:1em; border-radius:5px; margin-top:1em;">
+              ✅ Your message has been sent!
+            </div>
+
+          </form>
+
+        </section>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
